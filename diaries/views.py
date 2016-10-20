@@ -6,14 +6,17 @@ from django.contrib.auth.models import User
 from account.models import Diaryuser
 from django.core.paginator import Paginator,PageNotAnInteger,EmptyPage
 from django.shortcuts import get_object_or_404,Http404
+from django.db.models import Q
+from django.contrib.auth.decorators import login_required
 from django.core.urlresolvers import reverse
 # Create your views here.
 # def homepage(request):
 #     return render(request,'diaries/diaries_base.html',None)
 # def login(request):
 #     return render(request,reverse("diarise:login"))
+# @login_required
 def all_dry(request):
-    return render(request,'diaries/all_dry.html',None)
+    return render(request,'hello',None)
 
 
 def homepage(request):
@@ -53,7 +56,9 @@ def useradd(request):
 def diary_detail(request,diary_id):
     # diary=Diary.objects.filter(diary_sortid=diary_id)
     diary=get_object_or_404(Diary,diary_sortid=diary_id)
-    diaries=Diary.objects.filter(Diary_share='Public').order_by('create_date')
+    req_dry_user=diary.user
+    user=request.user.username;
+    diaries=Diary.objects.filter(Q(Diary_share='Public' )&Q(user=req_dry_user)).order_by('create_date')
     pub_intrest=Public_intrest.objects.all()
     user=request.user.username;
     diary_like=get_object_or_404(Diary,diary_sortid=diary_id)
