@@ -1,1 +1,1 @@
-# mydiary
+mydiary baseon diango
