@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="{% static 'image/icon.png' %}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--适应移动设备-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{% endblock %}</title>
+    <!-- 使用百度bootstartp，本地也有-->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/base.css' %}" rel="stylesheet">
+
+    {%  block heaser %}{% endblock %}
+</head>
+<body id="dry-body">
+<div id="particlse">
+    <div id="intro">
+        <!--导航栏-->
+        {% include "./diaries/nav.html" %}
+        <!-- 主体部分-->
+        <div id="dry-main">
+          {%  block main  %}{% endblock %}
+        </div>
+        <footer>
+          <div class="dry-foot">
+            <p class="foot-text">
+              日记小站 Zwc制作
+            </p>
+          </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>

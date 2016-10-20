@@ -1,0 +1,11 @@
+{#这里是单独显示一个日记页面的#}
+{% extends 'diaries/diaries_base.html' %}
+{% block cus-title %}
+{#    {{ 题目 }}#}
+    <div id="page-title">
+    {{ diary.diary_title}}
+    </div>
+{% endblock %}
+{% block diarie_main %}
+    {% include 'diaries/page_box.html' %}
+{% endblock %}

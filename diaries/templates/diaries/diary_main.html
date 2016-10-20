@@ -1,0 +1,46 @@
+{% extends 'diaries/diaries_base.html' %}
+{% block cus-title %}
+    所有日记
+{% endblock %}
+
+
+{% block diarie_main %}
+    <!-- 所有公开的日记条目-->
+    {% if diaries %}
+        {% for diary in diaries  %}
+            {% include 'diaries/diary_box.html' %}
+        {% endfor %}
+    {% endif %}
+{% endblock %}
+
+
+{% block diary-right %}
+    <!--右侧是所有日记排版,可以放入标签-->
+    {% if pub_like  %}
+        {% for like in pub_like%}}
+            <button type="button" class="btn btn-primary btn-sm like" >
+                {% include 'diaries/diary_right_like.html' %}
+            </button>
+        {% endfor %}
+    {% endif %}
+
+    {% if per_like  %}
+        {% for like in per_like%}}
+            <button type="button" class="btn btn-primary btn-sm like" style="margin: 2%" >
+                {% include 'diaries/diary_right_like.html' %}
+            </button>
+        {% endfor %}
+    {% endif %}
+
+    <div class="dry-box col-xs-12 dry_text" >
+    {% if diaries_list %}
+        {% block diary-right-list %}
+            <div class="container" id="diary-right-list">
+        {% for diary in diaries_list  %}
+            {% include 'diaries/diary_right.html' %}
+        {% endfor %}
+            </div>
+        {% endblock %}
+    {% endif %}
+    </div>
+{% endblock %}
