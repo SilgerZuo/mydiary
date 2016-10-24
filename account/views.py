@@ -33,3 +33,11 @@ def forlogout(request):
     logout(request)
     # return render(request, 'diaries/all_dry.html')
     return HttpResponseRedirect('/diary')
+
+
+def regist(request):
+    try:
+        username=request.REQUEST.get('username','noname')
+        password=request.REQUEST.get('password','noname')
+    except:
+        raise Http404
