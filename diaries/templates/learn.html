@@ -1,14 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-    <title>导航栏的字形图标</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+   function check(){
+        var name = document.getElementById("name").value;
+        if(name ==  null || name == ''){
+         alert("用户名不能为空");
+         return false;
+        }
+        return true;
+   }
+   function checkaaa() {
+       var name = document.getElementById("name").value;
+       if(1==1){
+           alert("sfasdf")
+           return false;
+       }
+       return true;
+   }
+</script>
 <body>
-<footer>
-    <p> asdfasdfsdf</p>
-</footer>
+<form  name="form"  action="www.baidu.com" method="post" onsubmit="return checkaaa()">
+    <input type="text" name="p1"/>
+    <input type="text" name="p2"/>
+    <input type="submit" value="测试提交"/>
+</form>
+
+
+<form name="form"  action="www.baidu.com" method="post"  onsubmit="return check()">
+   <input type="text" id="name"/>
+   <input type="submit" value="提交"/>
+</form>
 </body>
-</html>
+
+
+

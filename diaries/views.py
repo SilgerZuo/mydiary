@@ -82,3 +82,5 @@ def diary_detail(request,diary_id):
                    })
 
 
+def mydiary(request):
+    return Http404

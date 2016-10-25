@@ -15,7 +15,7 @@ class Diaryuser(models.Model):
     #                                         verbose_name=u'公共爱好')
     # person_intrest = models.ManyToManyField(Person_intrest,
     #                                         verbose_name=u'私人爱好')
-    age = models.IntegerField(null=False, default=16,
+    age = models.IntegerField(null=True, default=16,
                               verbose_name=u'年龄')
     telephone = models.CharField(max_length=11, null=True, blank=True,
                                  verbose_name=u'电话号码')
