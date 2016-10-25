@@ -1,0 +1,12 @@
+{% extends 'diaries/diaries_base.html' %}
+{% block main %}
+
+<script>
+    $(function () { $('#login-modal').modal({
+	keyboard: true
+    })})
+    $(function () {
+        $('#modol-header').append("<h5 style='color:red'>您的账号或密码错误,请重新登录</h5>")
+    })
+</script>
+{% endblock %}

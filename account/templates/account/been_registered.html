@@ -1,0 +1,13 @@
+{% extends 'diaries/diaries_base.html' %}
+{% block main %}
+
+<script>
+    $(function () { $('#register-modal').modal({
+	keyboard: true
+    })})
+    $(function () {
+        $('#name-div').append("<h5 style='color:red'>{{ name_registered }}</h5>")
+        $('#email-div').append("<h5 style='color:red'>{{ email_registered }}录</h5>")
+    })
+</script>
+{% endblock %}
