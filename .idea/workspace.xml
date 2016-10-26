@@ -6,26 +6,227 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe04cd60-6728-43f8-b3f8-55459fafe579" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/closeX.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar-black-border.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar-text-buttons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar-white-small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar-white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar4-hover.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/fullexpand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/geckodimmer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/loader.white.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/Outlines.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/beveled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/drop-shadow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/glossy-dark.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/outer-glow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/rounded-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/outlines/rounded-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/resize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/scrollarrows.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/zoomin.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/graphics/zoomout.cur" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/highslide-with-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/highslide-with-html.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/highslide/highslide.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/lib/d3/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/lib/d3/d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/LGPL-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/MIT-LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/_theme_template.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/config.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCore.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreDefault.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreDjango.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreEclipse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreEmacs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreFadeToGrey.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreMDUltra.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreMidnight.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shCoreRDark.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeDefault.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeDjango.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeEclipse.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeEmacs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeFadeToGrey.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeMDUltra.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeMidnight.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/compass/shThemeRDark.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushAS3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushAppleScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushBash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushCSharp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushColdFusion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushCpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushCss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushDelphi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushDiff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushErlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushGroovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushJScript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushJava.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushJavaFX.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushPerl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushPhp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushPlain.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushPowerShell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushPython.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushRuby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushSass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushScala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushSql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushVb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shBrushXml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/scripts/shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/src/shAutoloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/src/shCore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/src/shLegacy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCore.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shCoreRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeDefault.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeDjango.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeEclipse.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeEmacs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeFadeToGrey.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeMDUltra.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeMidnight.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/styles/shThemeRDark.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/.rvmrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/brushes/sass.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/brushes_tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/001_basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/002_brushes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/003_script_tag.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/004_url_parsing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/005_no_gutter.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/006_pad_line_numbers.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/007_collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/007_collapse_interaction.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/008_first_line.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/009_class_name.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/010_highlight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/011_smart_tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/012_server_side.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/013_html_script.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/cases/014_legacy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/commonjs_tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/js/jquery-1.4.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/js/qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/js/qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/syntaxhighlighter_tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/theme_tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/webrick.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/syntaxhighlighter/tests/webrick.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/langs/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/advlist/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/anchor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/autolink/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/autoresize/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/autosave/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/bbcode/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/charmap/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/code/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/colorpicker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/contextmenu/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/directionality/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/emoticons/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/example/dialog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/example/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/example_dependency/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/fullpage/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/fullscreen/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/hr/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/image/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/importcss/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/layer/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/link/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/lists/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/media/moxieplayer.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/media/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/noneditable/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/pagebreak/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/paste/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/preview/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/print/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/save/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/searchreplace/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.dev.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/fonts/sh4tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/langs/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/langs/fr_FR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/plugin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/sh4tinymce/style/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/spellchecker/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/tabfocus/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/table/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/template/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/textcolor/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/textpattern/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/visualblocks/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/visualchars/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/plugins/wordcount/plugin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/content.inline.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/content.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/img/anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/img/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/img/object.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/img/trans.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/skins/lightgray/skin.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/themes/modern/theme.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/static/tinymce/tinymce.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/models.py" afterPath="$PROJECT_DIR$/account/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/urls.py" afterPath="$PROJECT_DIR$/account/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/templates/account/been_registered.html" afterPath="$PROJECT_DIR$/account/templates/account/been_registered.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account/views.py" afterPath="$PROJECT_DIR$/account/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/models.py" afterPath="$PROJECT_DIR$/diaries/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/static/css/diary.css" afterPath="$PROJECT_DIR$/diaries/static/css/diary.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/base.html" afterPath="$PROJECT_DIR$/diaries/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/all_dry.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/all_dry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_main.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/nav.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/nav.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/userpage.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/userpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/urls.py" afterPath="$PROJECT_DIR$/diaries/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/views.py" afterPath="$PROJECT_DIR$/diaries/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diary/settings.py" afterPath="$PROJECT_DIR$/diary/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intrest/models.py" afterPath="$PROJECT_DIR$/intrest/models.py" />
     </list>
     <ignored path="diary.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,18 +252,7 @@
     <favorites_list name="diary" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/diaries/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -98,8 +288,6 @@
         <option value="$PROJECT_DIR$/diaries/templates/learn.html" />
         <option value="$PROJECT_DIR$/account/templates/account/registered.html" />
         <option value="$PROJECT_DIR$/account/templates/account/login_fail.html" />
-        <option value="$PROJECT_DIR$/account/views.py" />
-        <option value="$PROJECT_DIR$/account/templates/account/been_registered.html" />
         <option value="$PROJECT_DIR$/diary/settings.py" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/lrn2.html" />
         <option value="$PROJECT_DIR$/diaries/forms.py" />
@@ -120,6 +308,8 @@
         <option value="$PROJECT_DIR$/diaries/templates/diaries/nav.html" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/userpage.html" />
         <option value="$PROJECT_DIR$/intrest/models.py" />
+        <option value="$PROJECT_DIR$/account/views.py" />
+        <option value="$PROJECT_DIR$/account/templates/account/been_registered.html" />
       </list>
     </option>
   </component>
@@ -188,6 +378,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="diaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,9 +736,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1600" height="858" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.189375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.365625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17810026" sideWeight="0.5225" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -557,77 +783,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/diaries/static/highslide/graphics/fullexpand.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/static/highslide/graphics/icon.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/static/highslide/graphics/loader.white.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python2.7/importlib/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary-main.html" />
-    <entry file="file://$PROJECT_DIR$/comment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/applications/jetbrains-pycharm.desktop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/register.html" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/regist_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/templates/account/login_fail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/templates/account/been_registered.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -676,7 +835,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -704,16 +863,8 @@
         <state relative-caret-position="165">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
-            <element signature="e#38#79#0" expanded="true" />
+            <element signature="e#38#79#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="65" column="35" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -789,22 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/page_box.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -817,14 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -850,7 +977,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -860,7 +987,7 @@
         <state relative-caret-position="255">
           <caret line="17" column="16" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
           <folding>
-            <element signature="e#20#48#0" expanded="true" />
+            <element signature="e#20#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,10 +1052,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/highslide/graphics/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/highslide/graphics/controlbar2.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/js/vmaig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/lib/d3/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/syntaxhighlighter/src/shCore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/syntaxhighlighter/src/shAutoloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/img/bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/js/d3.layout.cloud.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/been_registered.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/templates/account/regist_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="41" selection-start-line="0" selection-start-column="41" selection-end-line="0" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="68" column="32" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding />
         </state>
       </provider>

@@ -48,16 +48,20 @@ def register(request):
         email=request.POST.get("register-email",None)
     except:
         raise Http404
-    name_registered = 0;
-    email_registered = 0;
+    name_registered = 0
+    email_registered = 0
+    name_reg_show = ''
+    email_reg_show =''
     if(len(User.objects.filter(username=username))>0):
         name_registered=1;
-    if(len(User.objects.filter(username=username))>0):
+        name_reg_show=u'用户名已经注册'
+    if(len(User.objects.filter(email=email))>0):
         email_registered=1;
+        email_reg_show=u'邮箱已经注册'
     registered=email_registered+name_registered
     if((registered)>0):
-        return render(request, "account/been_registered.html",{'name_registered':u"用户名已经注册",
-                                                          'email_registered':u"邮箱已经注册",
+        return render(request, "account/been_registered.html",{'name_registered':name_reg_show,
+                                                          'email_registered':email_reg_show,
                                                           'registered':registered,
                                                           })
     else:
