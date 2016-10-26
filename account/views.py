@@ -15,7 +15,7 @@ from django.contrib.auth.models import User
 
 
 def detail(request):
-    return render(request,'account/registered.html',None)
+    return render(request,'account/regist_page.html',None)
 
 
 def forlogin(request):
@@ -25,10 +25,13 @@ def forlogin(request):
     except:
         raise Http404
     user=authenticate(username=username,password=password)
+    if(user):
+        login(request,user)
+            # return render(request,'diaries/all_dry.html')
+        return HttpResponseRedirect('/diary')
+    else:
+        return render(request,'account/login_fail.html')
 
-    login(request,user)
-        # return render(request,'diaries/all_dry.html')
-    return HttpResponseRedirect('/diary')
 
 
 
@@ -53,7 +56,7 @@ def register(request):
         email_registered=1;
     registered=email_registered+name_registered
     if((registered)>0):
-        return render(request, "account/registered.html",{'name_registered':u"用户名已经注册",
+        return render(request, "account/been_registered.html",{'name_registered':u"用户名已经注册",
                                                           'email_registered':u"邮箱已经注册",
                                                           'registered':registered,
                                                           })

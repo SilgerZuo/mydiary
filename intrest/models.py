@@ -3,7 +3,7 @@ from django.db import models
 from account.models import Diaryuser
 
 # Create your models here.
-# this is goven by administratoruser,everyone can refer
+# 这两个功能尚未开发
 class Public_intrest(models.Model):
     pub_intrest = models.CharField(max_length=50,
                                       verbose_name=u'公共爱好')

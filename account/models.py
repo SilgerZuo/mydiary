@@ -2,11 +2,10 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.conf import settings
-# from intrest.models import Public_intrest, Person_intrest
 # Create your models here.
 
 
-# this is the detail of the user
+# 有些功能尚未开发,注释保留
 class Diaryuser(models.Model):
     # user = models.OneToOneField(settings.AUTH_USER_MODEL,
     #                             verbose_name=u'用户')
@@ -28,7 +27,7 @@ class Diaryuser(models.Model):
     def __unicode__(self):
         return'{}'.format(self.user.username)
 
-
+#尚未开发
 class Follow(models.Model):
     followed = models.OneToOneField(
         settings.AUTH_USER_MODEL,

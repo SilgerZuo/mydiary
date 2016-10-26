@@ -32,14 +32,14 @@
         {% endfor %}
     {% endif %}
 
-    <div class="dry-box col-xs-12 dry_text" >
+    <div class="right-box col-xs-12 dry_text" >
     {% if diaries_list %}
         {% block diary-right-list %}
-            <div class="container" id="diary-right-list">
-        {% for diary in diaries_list  %}
-            {% include 'diaries/diary_right.html' %}
-        {% endfor %}
-            </div>
+                    <ul class="list-group" style="padding-left: 0px">
+                    {% for diary in diaries_list  %}
+                        {% include 'diaries/diary_right.html' %}
+                    {% endfor %}
+                    </ul>
         {% endblock %}
     {% endif %}
     </div>

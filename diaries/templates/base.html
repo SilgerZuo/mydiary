@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="UTF-8">
     <meta name="viewport"  content="width=device-width, initial-scale=1.0">
     <!-- bootstrap 加载在nav中-->
@@ -10,7 +11,6 @@
         <div id="intro">
             <!-- 导航栏 -->
             {% include "./diaries/nav.html"%}
-{#            <a href="{% url 'login' %}">saaaaaaaaaaaaaaaaaaaaaaaaaa</a>#}
             <!-- 文章列表 与 侧边的东西 -->
             <div id="dry-main" >
                 <div id="dry-content" class="container" >
@@ -28,3 +28,4 @@
     <!-- 加载css -->
 
 </html>
+{% block js %}{% endblock %}

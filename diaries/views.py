@@ -8,19 +8,18 @@ from django.core.paginator import Paginator,PageNotAnInteger,EmptyPage
 from django.shortcuts import get_object_or_404,Http404
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
+from .forms import diaryform
+from django.utils import timezone
 from django.core.urlresolvers import reverse
-# Create your views here.
-# def homepage(request):
-#     return render(request,'diaries/diaries_base.html',None)
-# def login(request):
-#     return render(request,reverse("diarise:login"))
-# @login_required
+from django.http import HttpResponseRedirect
+
+
 def all_dry(request):
     return render(request,'hello',None)
 
 
 def homepage(request):
-    diaries=Diary.objects.filter(Diary_share='Public').order_by('create_date')
+    diaries=Diary.objects.filter(Diary_share='Public').order_by('-create_date')
     pub_intrest=Public_intrest.objects.all()
     user=request.user.username;
     try:
@@ -42,19 +41,8 @@ def homepage(request):
                    'diaries':diaries,
                    'diaries_list':diaries_list,
                    })
-def useradd(request):
-    dryuser=Diary()
-    username=request.Post.get('name','')
-    passworc=request.Post.get('password','')
-    user=User()
-    user.name=username;
-    Dry=Diaryuser()
-    Dry.user=user;
-    Dry.save()
-
 
 def diary_detail(request,diary_id):
-    # diary=Diary.objects.filter(diary_sortid=diary_id)
     diary=get_object_or_404(Diary,diary_sortid=diary_id)
     req_dry_user=diary.user
     user=request.user.username;
@@ -77,10 +65,31 @@ def diary_detail(request,diary_id):
     return render(request,'diaries/diarypage.html',
                   {'pub_like':diary_pub_like,
                    'per_like':diary_per_like,
-                   'diaries':diaries,
+                   'diaries_list':diaries,
                    'diary':diary,
                    })
 
-
+@login_required()
 def mydiary(request):
-    return Http404
+    user1 = User.objects.filter(username=request.user.username)[0]
+    whoiam = Diaryuser.objects.filter(user=user1)[0]
+    diaries_list = Diary.objects.filter(user=whoiam)
+    if(request.method=='POST'):
+        form=diaryform(request.POST)
+        if form.is_valid():
+            diary_title=form.cleaned_data['diary_title']
+            diary_text=form.cleaned_data['diary_text']
+            newdry=Diary()
+            newdry.user=whoiam
+            newdry.diary_title = diary_title
+            newdry.diary_text = diary_text
+            newdry.create_date=timezone.now()
+            newdry.save()
+            return HttpResponseRedirect("/diary")
+        else:
+            newform = diaryform()
+            diaries_list = Diary.objects.filter(user=whoiam)
+            return render(request, 'diaries/userpage.html', {'form': newform,"diaries_list":diaries_list})
+    else:
+        form=diaryform()
+        return render(request,'diaries/userpage.html',{'form':form,"diaries_list":diaries_list})

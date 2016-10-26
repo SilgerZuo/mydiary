@@ -638,7 +638,14 @@ footer {
     white-space:nowrap;
 }
 .dry_text{
-    color:darkgoldenrod;
+    color: #878a85;
+    font-size: medium;
+}
+#dry-box-title{
+    padding:0%;
+    margin-top:2%;
+    color: #c0a16b;
+
 }
 .page-box {
     margin-bottom: 13px;
@@ -649,21 +656,24 @@ footer {
     box-shadow: #ccc 0 0 3px 2px;
 
 }
-/*.right-box {*/
-    /*margin-bottom: 13px;*/
-    /*!*background-color:red;*!*/
+.right-box {
+    margin-bottom: 13px;
+    /*background-color:red;*/
     /*border: darkslategrey 1px solid;*/
     /*border-radius: 5px;*/
     /*box-shadow: #ccc 0 0 3px 2px;*/
-    /*text-overflow: ellipsis;*/
-    /*overflow: hidden;*/
-    /*white-space:nowrap;*/
-/*}*/
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space:nowrap;
+}
 .like{
     color:blue;
 }
 #page-title{
     color:darkseagreen;
 }
-
+#register-form{
+     visibility:visible;
+    display: block;
+}
 

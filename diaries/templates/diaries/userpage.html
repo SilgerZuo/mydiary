@@ -1,14 +1,97 @@
 {% extends 'diaries/diaries_base.html' %}
-{% block cus-title %}
-    <!--获取标题显示,直接放文字-->
+{% block diarie_main %}
+    <div style="background-color: black;padding:1%;height: 430px" xmlns="http://www.w3.org/1999/html">
+    <div class="new-dry">
+        <form action="/diary/new_diary" method="post" id="new_dry_form">
+            {% csrf_token %}
+            <label for="title">今日小记</label></br>
+            </br>
+                {{ form.diary_title }}
+            </br>
+                {{ form.diary_text }}
+            </br>
+            <button  class='btn btn-info' type="submit" onclick="return check()" style="float: right">提交日记</button>
+        </form>
+    </div>
+    </div>
+    <style>
+        #id_diary_title{
+            height: 60px;
+            background-color: #9df39f;
+            color: #0f0f0f;
+            padding:1%;
+        }
+        #id_diary_text{
+            height: 300px;
+            background-color: #0f0f0f;
+            color: #9E9E9E
+        }
+    </style>
+    <script>
+        $('#id_diary_title').setClass("form-control")
+    </script>
 {% endblock %}
 
-{% block diarie_min %}
-    <!-- 登录用户自己的文章->
+{% block js %}
+    <script type="text/javascript">
+        function check() {
+            var title=$('#id_diary_title').val();
+            var drytext=$('#id_diary_text').val();
+            if(title.length==0){
+                alert("标题不能为空");
+                return false;
+            }
+            if(drytext.length==0){
+                alert("日记不能为空");
+                return false;
+            }
+            return true
+        }
+    </script>
+    <script>
+    $(document).ready(function () {
+        $.ajaxSetup({
+            data: {csrfmiddlewaretoken: '{{ csrf_token }}' },
+        });
+        $.('#new_dry_form').submit(function () {
+            var title=$('#id_diary_title').val();
+            var drytext=$('#id_diary_text').val();
+            $.ajax({
+                type:"POST",
+                date:{}
+            })
+        })
+    })
+    </script>
 {% endblock %}
 
+{% block diary-right %}
+    <!--右侧是所有日记排版,可以放入标签-->
+    {% if pub_like  %}
+        {% for like in pub_like%}}
+            <button type="button" class="btn btn-primary btn-sm like" >
+                {% include 'diaries/diary_right_like.html' %}
+            </button>
+        {% endfor %}
+    {% endif %}
 
-{% block dry-right %}
-    <!--登录用户界面,右侧是自己的文章-->
-{#    {% for %}#}
+    {% if per_like  %}
+        {% for like in per_like%}}
+            <button type="button" class="btn btn-primary btn-sm like" style="margin: 2%" >
+                {% include 'diaries/diary_right_like.html' %}
+            </button>
+        {% endfor %}
+    {% endif %}
+
+    <div class="right-box col-xs-12 dry_text">
+    {% if diaries_list %}
+        {% block diary-right-list %}
+         <ul class="list-group" style="padding-left: 0px">
+        {% for diary in diaries_list  %}
+            {% include 'diaries/diary_right.html' %}
+        {% endfor %}
+         </ul>
+        {% endblock %}
+    {% endif %}
+    </div>
 {% endblock %}
