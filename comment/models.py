@@ -11,7 +11,7 @@ class Comment(models.Model):
     Author = models.OneToOneField(settings.AUTH_USER_MODEL, verbose_name=u'作者')
     comment_text = models.TextField(max_length=2000, verbose_name=u'评论')
     diary_to = models.ForeignKey(Diary, verbose_name=u'评论日记')
-    c_date = models.DateTimeField(auto_now_add=True,verbose_name=u'评论时间')
+    c_date = models.DateTimeField(auto_now_add=True, verbose_name=u'评论时间')
 
     class Meta:
         verbose_name_plural = verbose_name = u'评论'

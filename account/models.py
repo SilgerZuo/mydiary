@@ -9,7 +9,7 @@ from django.conf import settings
 class Diaryuser(models.Model):
     # user = models.OneToOneField(settings.AUTH_USER_MODEL,
     #                             verbose_name=u'用户')
-    user=models.OneToOneField(User)
+    user = models.OneToOneField(User)
     # public_intrest = models.ManyToManyField(Public_intrest,
     #                                         verbose_name=u'公共爱好')
     # person_intrest = models.ManyToManyField(Person_intrest,
@@ -27,7 +27,9 @@ class Diaryuser(models.Model):
     def __unicode__(self):
         return'{}'.format(self.user.username)
 
-#尚未开发
+# 尚未开发
+
+
 class Follow(models.Model):
     followed = models.OneToOneField(
         settings.AUTH_USER_MODEL,

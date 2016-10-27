@@ -1,6 +1,6 @@
 #*-encoding:utf-8-*
-from django.shortcuts import render,Http404,HttpResponseRedirect
-from django.contrib.auth import authenticate,login,logout
+from django.shortcuts import render, Http404, HttpResponseRedirect
+from django.contrib.auth import authenticate, login, logout
 from django.core.urlresolvers import reverse
 from diaries.views import homepage
 from django import forms
@@ -13,26 +13,23 @@ from .models import Diaryuser
 from django.contrib.auth.models import User
 
 
-
 def detail(request):
-    return render(request,'account/regist_page.html',None)
+    return render(request, 'account/regist_page.html', None)
 
 
 def forlogin(request):
     try:
-        username=request.REQUEST.get('username','noname')
-        password=request.REQUEST.get('password','nopass')
+        username = request.REQUEST.get('username', 'noname')
+        password = request.REQUEST.get('password', 'nopass')
     except:
         raise Http404
-    user=authenticate(username=username,password=password)
+    user = authenticate(username=username, password=password)
     if(user):
-        login(request,user)
-            # return render(request,'diaries/all_dry.html')
+        login(request, user)
+        # return render(request,'diaries/all_dry.html')
         return HttpResponseRedirect('/diary')
     else:
-        return render(request,'account/login_fail.html')
-
-
+        return render(request, 'account/login_fail.html')
 
 
 def forlogout(request):
@@ -43,34 +40,37 @@ def forlogout(request):
 
 def register(request):
     try:
-        username=request.POST.get("register-name",None)
-        password=request.POST.get('register-password-1')
-        email=request.POST.get("register-email",None)
+        username = request.POST.get("register-name", None)
+        password = request.POST.get('register-password-1')
+        email = request.POST.get("register-email", None)
     except:
         raise Http404
     name_registered = 0
     email_registered = 0
     name_reg_show = ''
-    email_reg_show =''
-    if(len(User.objects.filter(username=username))>0):
-        name_registered=1;
-        name_reg_show=u'用户名已经注册'
-    if(len(User.objects.filter(email=email))>0):
-        email_registered=1;
-        email_reg_show=u'邮箱已经注册'
-    registered=email_registered+name_registered
-    if((registered)>0):
-        return render(request, "account/been_registered.html",{'name_registered':name_reg_show,
-                                                          'email_registered':email_reg_show,
-                                                          'registered':registered,
-                                                          })
+    email_reg_show = ''
+    if(len(User.objects.filter(username=username)) > 0):
+        name_registered = 1
+        name_reg_show = u'用户名已经注册'
+    if(len(User.objects.filter(email=email)) > 0):
+        email_registered = 1
+        email_reg_show = u'邮箱已经注册'
+    registered = email_registered + name_registered
+    if((registered) > 0):
+        return render(request,
+                      "account/been_registered.html",
+                      {'name_registered': name_reg_show,
+                       'email_registered': email_reg_show,
+                       'registered': registered,
+                       })
     else:
         user = User()
         user.username = username
         user.set_password(password)
         user.email = email
         user.save()
-        dryuser=Diaryuser()
-        dryuser.user=user
+        dryuser = Diaryuser()
+        dryuser.user = user
         dryuser.save()
-        return render(request,"account/registered.html",{"register_succ":u"注册成功,请登录"})
+        return render(request, "account/registered.html",
+                      {"register_succ": u"注册成功,请登录"})
