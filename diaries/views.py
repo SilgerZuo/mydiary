@@ -89,6 +89,7 @@ def mydiary(request):
     user1 = User.objects.filter(username=request.user.username)[0]
     whoiam = Diaryuser.objects.filter(user=user1)[0]
     diaries_list = Diary.objects.filter(user=whoiam)
+    diary_count=Diary.objects.all().count()
     if(request.method=='POST'):
         form=diaryform(request.POST)
         if form.is_valid():
@@ -99,6 +100,7 @@ def mydiary(request):
             newdry.diary_title = diary_title
             newdry.diary_text = diary_text
             newdry.create_date=timezone.now()
+            newdry.diary_sortid=diary_count+1
             newdry.save()
             return HttpResponseRedirect("/diary")
         else:
