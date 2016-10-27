@@ -40,7 +40,7 @@ def homepage(request):
         diaries=page_show.page(1)
         diaries_list = page_list.page(1)
     except EmptyPage:
-        diaries=page_show.page(page_show.num_pages)
+        diaries=page_show.page(1)
         diaries_list=page_list.page(page_list.num_pages)
     return render(request,'diaries/all_dry.html',
                   {'pub_like':pub_intrest,
@@ -70,7 +70,7 @@ def diary_detail(request,diary_id):
     page_list=Paginator(diaries,12)
     page_num=request.GET.get('page')
     try:
-        # diaries=page_show.page(page_num)
+        diaries=page_list.page(page_num)
         list_num=(int(page_num)/2)
         diaries_list=page_list.page(list_num)
     except PageNotAnInteger:

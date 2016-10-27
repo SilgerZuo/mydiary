@@ -17,6 +17,7 @@
             {% endblock %}
 		</div>
         <!--右侧导航栏-->
+        {% block right-nav %}
 		<div class="col-md-4 column">
             <!--这里存放文章标题-->
             <div class="page-header" id="show-right-title">
@@ -28,6 +29,7 @@
                 {% block diary-right %}{% endblock %}
             </div>
         </div>
+        {% endblock %}
 	</div>
     </div>
     {% block cus-js %}{% endblock %}

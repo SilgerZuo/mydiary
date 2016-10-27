@@ -1,10 +1,10 @@
 <div class="page-box col-xs-12 dry_text" >
     {% with diary.user as user %}
-    <span style="float:right;padding-left:5px";></span>
+    <span class="dry-text-show" style="float:right;padding-left:5px";></span>
         <br><small>写作时间{{ diary.create_date }}</small>
     <div class="col-xs-12">
-        <div>
-                {{ diary.diary_text }}
+        <div class="dry-text-show">
+                {{ diary.diary_text|linebreaks }}
         </div>
         <div>
             {% if pub_like  %}

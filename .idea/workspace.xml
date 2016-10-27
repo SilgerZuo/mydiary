@@ -6,11 +6,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe04cd60-6728-43f8-b3f8-55459fafe579" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/migrations/0002_auto_20161019_0256.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/migrations/0003_auto_20161019_0331.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/migrations/0004_auto_20161025_0607.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/account/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comment/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/comment/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0002_auto_20161013_1246.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0003_diary_diary_share.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0004_auto_20161018_0923.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0005_auto_20161019_0234.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0006_auto_20161019_0952.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0007_auto_20161019_0954.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0008_auto_20161019_0954.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0009_auto_20161019_0955.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0010_auto_20161019_0959.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0011_auto_20161025_0607.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0012_auto_20161025_0614.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0013_auto_20161025_0615.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0014_auto_20161025_0619.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0015_auto_20161026_0128.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/0016_auto_20161026_0144.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/diaries/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/intrest/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/intrest/migrations/0002_auto_20161019_0256.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/intrest/migrations/__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/forms.py" afterPath="$PROJECT_DIR$/diaries/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/static/css/diary.css" afterPath="$PROJECT_DIR$/diaries/static/css/diary.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_main.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/nav.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/nav.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/templates/diaries/page_box.html" afterPath="$PROJECT_DIR$/diaries/templates/diaries/page_box.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diaries/views.py" afterPath="$PROJECT_DIR$/diaries/views.py" />
     </list>
     <ignored path="diary.iws" />
@@ -41,40 +71,48 @@
       <file leaf-file-name="diarypage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diarypage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diary_main.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="diary_main.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-              <folding>
-                <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diary.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diaries/static/css/diary.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="642" column="5" selection-start-line="642" selection-start-column="5" selection-end-line="642" selection-end-column="5" />
+            <state relative-caret-position="348">
+              <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="diary_right.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_right.html">
+      <file leaf-file-name="userpage.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/userpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1830">
+              <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,8 +121,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/diaries/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="222">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="e#21#56#0" expanded="true" />
               </folding>
@@ -92,11 +130,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comment/models.py">
+      <file leaf-file-name="diary_box.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_box.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_box.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/page_box.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diary.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/diaries/static/css/diary.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="646" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diary_right.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_right.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,7 +197,6 @@
         <option value="$PROJECT_DIR$/diaries/templates/diaries/homepage.html" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_right_like.html" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/diary-main.html" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/page_box.html" />
         <option value="$PROJECT_DIR$/comment/views.py" />
         <option value="$PROJECT_DIR$/account/templates/hello.html" />
         <option value="$PROJECT_DIR$/diary/urls.py" />
@@ -140,26 +209,27 @@
         <option value="$PROJECT_DIR$/account/templates/account/login_fail.html" />
         <option value="$PROJECT_DIR$/diary/settings.py" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/lrn2.html" />
-        <option value="$PROJECT_DIR$/diaries/forms.py" />
         <option value="$PROJECT_DIR$/diaries/urls.py" />
         <option value="$PROJECT_DIR$/diaries/templates/diary.py" />
         <option value="$PROJECT_DIR$/diaries/models.py" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" />
         <option value="$PROJECT_DIR$/account/models.py" />
         <option value="$PROJECT_DIR$/diaries/templates/base.html" />
         <option value="$PROJECT_DIR$/account/urls.py" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/all_dry.html" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/nav.html" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/userpage.html" />
         <option value="$PROJECT_DIR$/intrest/models.py" />
         <option value="$PROJECT_DIR$/account/views.py" />
         <option value="$PROJECT_DIR$/account/templates/account/been_registered.html" />
-        <option value="$PROJECT_DIR$/diaries/static/css/diary.css" />
-        <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" />
-        <option value="$PROJECT_DIR$/diaries/views.py" />
         <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_main.html" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/nav.html" />
+        <option value="$PROJECT_DIR$/diaries/forms.py" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/userpage.html" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/page_box.html" />
+        <option value="$PROJECT_DIR$/diaries/static/css/diary.css" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_box.html" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/diary_right.html" />
+        <option value="$PROJECT_DIR$/diaries/templates/diaries/diarypage.html" />
+        <option value="$PROJECT_DIR$/diaries/views.py" />
       </list>
     </option>
   </component>
@@ -170,9 +240,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1362" />
-    <option name="width" value="1608" />
-    <option name="height" value="862" />
+    <option name="x" value="1366" />
+    <option name="width" value="1600" />
+    <option name="height" value="858" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -199,33 +269,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -235,29 +304,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diaries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -268,18 +319,14 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="registration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -297,11 +344,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -315,11 +362,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
+              <option name="myItemId" value="diary2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -335,64 +382,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="diary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weibo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/software_share/node-v4.5.0-linux-x64/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -701,16 +699,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1362" y="0" width="1608" height="862" extended-state="6" />
-    <editor active="false" />
+    <frame x="1366" y="0" width="1600" height="858" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.363125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17810026" sideWeight="0.5225" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15323646" sideWeight="0.4775" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15323646" sideWeight="0.4775" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -749,7 +747,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/account/templates/account/hello.html" />
     <entry file="file://$PROJECT_DIR$/diary/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -791,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_box.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_right_like.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -807,21 +797,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/homepage.html" />
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/lrn2.html" />
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/page_box.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/userpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/base.html.back">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -928,26 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="79" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -998,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diaries_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -1018,7 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,30 +976,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/img/carousel/default.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/static/css/diary.css">
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="642" column="5" selection-start-line="642" selection-start-column="5" selection-end-line="642" selection-end-column="5" />
+        <state relative-caret-position="1830">
+          <caret line="122" column="49" selection-start-line="122" selection-start-column="49" selection-end-line="122" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_right.html">
+    <entry file="file://$PROJECT_DIR$/diaries/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diaries/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        <state relative-caret-position="222">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#21#56#0" expanded="true" />
           </folding>
@@ -1058,19 +1020,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diarypage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_right.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/userpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/diary_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="348">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/templates/diaries/page_box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
           <folding>
-            <element signature="n#style#0;n#button#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diaries/static/css/diary.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="643" column="0" selection-start-line="643" selection-start-column="0" selection-end-line="646" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

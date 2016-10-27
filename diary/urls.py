@@ -19,9 +19,10 @@ from diaries.views import homepage
 from account.account_urls import *
 from django.contrib.auth import views
 from django.contrib.auth import  views as auth_views
+from diaries.views import homepage
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^diary/',include('diaries.urls')),
     url(r'^account/',include('account.urls')),
-
+    url(r'^$',homepage)
 ]
