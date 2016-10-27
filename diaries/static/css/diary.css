@@ -637,10 +637,10 @@ footer {
     overflow: hidden;
     white-space:nowrap;
 }
-.dry_text{
-    color: #878a85;
-    font-size: medium;
-}
+/*.dry_text{*/
+    /*color: #878a85;*/
+    /*font-size: medium;*/
+/*}*/
 #dry-box-title{
     padding:0%;
     margin-top:2%;

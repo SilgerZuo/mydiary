@@ -11,6 +11,17 @@
             {% include 'diaries/diary_box.html' %}
         {% endfor %}
     {% endif %}
+    <p>
+    <!-- 分页功能  -->
+    {% for page in diaries.paginator.page_range %}
+        {% ifequal page  diaries.number %}
+            <span class="btn btn-primary btn-sm">{{ page }}</span>
+        {% else %}
+            <a class="btn btn-sm btn-default" href="?page={{ page }}">{{ page }}</a>
+        {% endifequal %}
+    {% endfor %}
+    </p>
+
 {% endblock %}
 
 
@@ -35,12 +46,13 @@
     <div class="right-box col-xs-12 dry_text" >
     {% if diaries_list %}
         {% block diary-right-list %}
-                    <ul class="list-group" style="padding-left: 0px">
+{#                    <ul class="list-group" >#}
                     {% for diary in diaries_list  %}
                         {% include 'diaries/diary_right.html' %}
                     {% endfor %}
-                    </ul>
+{#                    </ul>#}
         {% endblock %}
     {% endif %}
     </div>
+
 {% endblock %}
